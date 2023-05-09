@@ -45,7 +45,7 @@ a:hover {
     padding: 0;
     width: 50px;
     height: 50px;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .avatar-img {
@@ -55,6 +55,10 @@ a:hover {
     border-radius: inherit;
     object-fit: cover;
     image-rendering: auto;
+}
+
+.avatar-link {
+    width: auto;
 }
 
 .title {
@@ -191,5 +195,4 @@ a:hover {
         text-align: center;
         padding-top: 10px;
     }
-
 }
